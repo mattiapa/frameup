@@ -1,0 +1,286 @@
+/*=============== GOOGLE FONTS ===============*/
+/* @import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;500;600;700&display=swap"); */
+
+/*=============== VARIABLES CSS ===============*/
+:root {
+  --header-height: 3.5rem;
+
+  /*========== Colors ==========*/
+  /*Color mode HSL(hue, saturation, lightness)*/
+
+  --body-color: hsl(0, 0%, 0%);
+  --white-color: hsl(0, 0%, 95%);
+  --first-color: hsl(14, 98%, 50%);
+  --title-color: var(--white-color);
+  --text-color: var(--white-color);
+
+  /*========== Font and typography ==========*/
+  /*.5rem = 8px | 1rem = 16px ...*/
+  --body-font: "Bai Jamjuree", sans-serif;
+  --biggest-font-size: 2.5rem;
+  --h1-font-size: 2.5rem;
+  --h2-font-size: 1.25rem;
+  --h3-font-size: 1.125rem;
+  --normal-font-size: .938rem;
+  --small-font-size: .813rem;
+  --smaller-font-size: .75rem;
+
+  /*========== Font weight ==========*/
+  --font-regular: 400;
+  --font-medium: 500;
+  --font-semi-bold: 600;
+  --font-bold: 700;
+
+  /*========== z index ==========*/
+  --z-tooltip: 10;
+  --z-fixed: 100;
+}
+
+body {
+  font-family: var(--body-font);
+  font-size: var(--normal-font-size);
+  background-color: var(--body-color);
+  color: var(--text-color);
+  text-align: center;
+}
+
+h1, h2, h3, h4 {
+  color: var(--title-color);
+  font-weight: var(--font-bold);
+}
+
+ul {
+  list-style: none;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.title {
+  text-transform: uppercase;
+  font-size: var(--h1-font-size);
+}
+
+span {
+  font-weight: bolder;
+  font-size: var(--h3-font-size);
+}
+
+
+
+.container {
+  width: 90%;
+  margin: auto;
+  max-width: 80rem;
+  /* border: 2px solid red; */
+  padding: 1rem;
+  margin-inline: auto;
+}
+.unstyled-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.unstyled-list a {
+  text-decoration: none;
+  /* text-transform: uppercase; */
+  color: var(--text-color);
+}
+.unstyled-list a:hover, .unstyled-list a:focus {
+  color: var(--first-color);
+  transition: all ease-in-out 250ms;
+}
+
+.logo{
+  display: flex;
+  max-width: clamp(8% + 1rem, 8% + 1rem, 15% + 2rem);
+}
+
+.home-header {
+  padding: 0;
+  margin: 0;
+}
+
+.nav-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main-nav {
+  position: relative;
+  flex: auto;
+  text-align: right;
+}
+
+.main-nav ul {
+  display: flex;
+  /* justify-content: space-around; */
+  /* justify-content: right; */
+  justify-content: center;
+  gap: 3rem;
+  flex-direction: row;
+  height: auto;
+  padding: 0;
+}
+
+.main-nav li {
+  flex: 1 1 auto;
+  display: inline-block;
+  text-align: right;
+}
+
+.main-nav a {
+  color: var(--text-color);
+}
+@media (max-width: 50em) {
+  .nav-toggle {
+      display: block;
+      padding: 1.4rem;
+      background-color: none;
+      cursor: pointer;
+  }
+  .main-nav {
+      display: none;
+  }
+
+  .main-nav {
+      display: block;
+      position: absolute;
+      top: 0;
+      right: 0;
+      left: 100%;
+      font-size: 1.1rem;
+      overflow: hidden;
+      background-color: var(--white-color);
+      transition: all ease-in-out 250ms;
+  }
+
+  .main-nav[is-open]{
+      left: 0;
+      transition: all ease-in-out 250ms;
+  }
+
+  .main-nav ul {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      height: 100vh;
+      
+  }
+  .main-nav li {
+      flex: 1 1 auto;
+      border-bottom: 1px solid rgba(0,0,0, .2);
+      display: flex;
+  }
+  .main-nav a {
+      display: flex;
+      flex-basis: 100%;
+      align-items: center;
+      justify-content: center;
+      color: black;
+  }
+
+  .hamburger, .hamburger::before, .hamburger::after {
+      content: '';
+      display: block;
+      width: 1.5rem;
+      height: 3px;
+      background: var(--white-color);
+
+      transition: all ease-in-out 250ms;
+  }
+  .hamburger::before {
+      transform: translateY(-6px);
+  }
+  .hamburger::after {
+      transform: translateY(3px);
+  }
+
+  .hamburger[is-open] {
+      transform: rotate(45deg);
+      background-color: black;
+  }
+  .hamburger[is-open]::after {
+      transform: rotate(-90deg) translate(3px);
+      background-color: black;
+  }
+  .hamburger[is-open]::before {
+      opacity: 0;
+  }
+}/* End of Header */
+
+.home-button{
+  padding: 1.25em 5em;
+  text-transform: uppercase;
+  background-color: black;
+  color: var(--text-color);
+  border: 2px solid var(--text-color);
+  cursor: pointer;
+  font-weight: var(--font-semi-bold);
+}
+
+.home-button:hover{
+  /* background-color: var(--white-color); */
+  background-color: var(--first-color);
+  color: var(--text-color);
+  transition: ease-in-out 250ms;
+}
+
+.home-title{
+  font-size: 3rem;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 4rem;
+}
+
+.home-info{
+  margin-top: 5rem;
+  font-size: var(--body-font);
+}
+.social-links{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 2rem;
+  font-size: var(--body-font);
+}
+
+
+.gallery{
+  display: grid;
+  padding-top: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 5rem;
+  align-items: center;
+}
+
+.about {
+  padding-top: 8rem;
+}
+
+
+
+.photo-bio-item {
+  /* border: 1px solid white */
+}
+.bio-info{
+  border: 1px solid black;
+  background: black;
+  text-transform: uppercase;
+}
+  .name{
+    font-weight: var(--font-bold);
+  }
+  .role{
+    font-weight: var(--font-regular);
+    font-size: .785rem;
+  }
