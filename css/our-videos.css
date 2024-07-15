@@ -1,0 +1,21 @@
+.video-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 30px;
+    justify-items: center;
+}
+.video-item {
+    display: grid;
+    grid-template-rows: 1fr;
+    gap: 25px;
+    justify-items: center;
+    padding: 15px 10px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 3px var(--clr-light);
+
+    /* border: 1px dashed red; */
+}
+.video-title {
+    font-size: var(--fs-paragraph-larger);
+    justify-content: center;
+}

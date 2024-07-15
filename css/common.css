@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: var(--fs-paragraph);
+    font-family: var(--font-family), serif;
+    text-align: justify;
+    background-color: var(--clr-dark);
+    color: var(--clr-light)
+}
+
+h1 {
+    font-size: var(--fs-title);
+    font-weight: var(--fw-bold);
+}
+h2 {
+    font-size: var(--fs-subtitle);
+    font-weight: var(--fw-semi-bold);
+}
+h3 {
+    font-size: var(--fs-headings);
+    font-weight: var(--fw-medium);
+}
+p {
+    font-size: var(--fs-paragraph);
+    font-weight: var(--fw-light);
+}
+.paragraph-larger {
+    font-size: var(--fs-paragraph-larger);
+    font-weight: var(--fw-regular);
+}
+img,
+picture,
+svg {
+    max-width: 100%;
+    display: block;
+}
+
+
+/* COMMONS */
+
+/* each section of the website has margin */
+section{
+    margin: 4rem 0;
+    border: 2px dashed red;
+}
+
+/* container is shrinked inside section */
+.container {
+    width: 95%;
+    margin: auto;
+    max-width: 80rem;
+    text-align: justify;
+    border: 2px dashed green;
+}
+
+/* to highlight words inside a paragraph */
+span {
+    font-weight: var(--fw-medium);
+    color: var(--clr-accent)
+}
+
+.unstyled-list {
+    list-style: none;
+}
+.styled-list {
+    list-style: disc inside;
+}
+
+a {
+    text-decoration-style: dotted;
+    text-transform: none;
+    color: var(--clr-light)
+    /* color: var(--clr-accent) */
+
+}
+
+/* grid with automatic fitting*/
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+    gap: 8px;
+}
+
+@media (max-width: 1000px) {
+
+    h1 {
+        font-size: var(--fs-title-breakpoint);
+        font-weight: var(--fw-bold);
+    }
+    h2 {
+        font-size: var(--fs-subtitle-breakpoint);
+        font-weight: var(--fw-semi-bold);
+    }
+    h3 {
+        font-size: var(--fs-headings-breakpoint);
+        font-weight: var(--fw-medium);
+    }
+    p {
+        font-size: var(--fs-paragraph-breakpoint);
+        font-weight: var(--fw-light);
+    }
+    .paragraph-larger {
+        font-size: var(--fs-paragraph-breakpoint-larger);
+        font-weight: var(--fw-regular);
+    }
+}
