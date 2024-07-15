@@ -200,12 +200,12 @@ nav {
     font-weight: 400;
 }
 
-.landing-page{
+#landing-page{
     position: relative;
     padding: 11rem;
     margin-top: 0;
 }
-.landing-page::before{
+#landing-page::before{
     content: ' ';
     display: block;
     position: absolute;
