@@ -47,7 +47,7 @@
 
 body {
     font-size: var(--fs-paragraph);
-    font-family: var(--font-family);
+    font-family: var(--font-family), serif;
     text-align: justify;
     background-color: var(--clr-dark);
     color: var(--clr-light)
@@ -104,7 +104,6 @@ span {
 }
 
 .unstyled-list {
-    list-style-type: none;
     list-style: none;
 }
 .styled-list {
@@ -218,29 +217,16 @@ a {
     color: var(--clr-light);
     transition: all ease-in-out 250ms;
 }
-.facebook:hover,focus {
+.facebook:hover,.facebook:focus {
     color: var(--clr-facebook);
 }
-.youtube:hover,focus {
+.youtube:hover,.youtube:focus {
     color: var(--clr-youtube);
 }
-.instagram:hover,focus {
+.instagram:hover,.instagram:focus {
     color: var(--clr-instagram);
 }
-.spotify:hover,focus {
-    color: var(--clr-spotify);
-}
-
-.facebook:hover,focus {
-    color: var(--clr-facebook);
-}
-.youtube:hover,focus {
-    color: var(--clr-youtube);
-}
-.instagram:hover,focus {
-    color: var(--clr-instagram);
-}
-.spotify:hover,focus {
+.spotify:hover,.spotify:focus {
     color: var(--clr-spotify);
 }
 
