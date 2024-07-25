@@ -1,3 +1,7 @@
+#home-about {
+    background: var(--clr-light);
+    color: var(--clr-dark);
+}
 .home-about-photos { /*TODO: replace this with parent grid.*/
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));

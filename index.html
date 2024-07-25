@@ -13,16 +13,18 @@
 </head>
 
 <body>
-<div id="header"></div>
-<div id="content">
-    <div id="landing-page"></div>
-    <div id="home-about"></div>
-    <div id="weddings"></div>
-    <div id="events"></div>
-    <div id="contacts"></div>
-</div>
-<div id="footer"></div>
+    <div id="header"></div>
+    <div id="content">
+        <div id="landing-page"></div>
+        <div id="home-about"></div>
+        <div id="our-videos"></div>
+        <div id="weddings"></div>
+        <div id="events"></div>
+        <div id="contacts"></div>
+    </div>
+    <div id="footer"></div>
 </body>
+
 <script>
     async function loadHTML(id, url) {
         const response = await fetch(url);
@@ -32,6 +34,7 @@
     loadHTML('header', 'header.html');
     loadHTML('landing-page', 'html/landing-page.html');
     loadHTML('home-about', 'html/home-about.html');
+    loadHTML('our-videos', 'html/our-videos.html');
     loadHTML('weddings', 'html/weddings.html');
     loadHTML('events', 'html/events.html');
     loadHTML('contacts', 'html/contacts.html');

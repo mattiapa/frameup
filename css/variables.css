@@ -26,10 +26,13 @@
 
     --clr-dark: #101720;
     --clr-light: #FAF5FF;
-    --clr-accent: red;
+    --clr-primary: #75B9BE;
+    --clr-secondary: #D64933;
+    --clr-highligh: #F6AE2D;
 
     --clr-facebook: rgb(7, 102, 255);
     --clr-instagram: rgb(253, 10, 202);
     --clr-youtube: rgb(255, 0, 0);
     --clr-spotify: rgb(28, 215, 96);
+
 }

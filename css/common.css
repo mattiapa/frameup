@@ -52,15 +52,16 @@ section{
 .container {
     width: 95%;
     margin: auto;
-    max-width: 80rem;
     text-align: justify;
+    justify-content: center;
+    max-width: 100rem;
     border: 2px dashed green;
 }
 
 /* to highlight words inside a paragraph */
 span {
     font-weight: var(--fw-medium);
-    color: var(--clr-accent)
+    color: var(--clr-primary)
 }
 
 .unstyled-list {
@@ -74,8 +75,6 @@ a {
     text-decoration-style: dotted;
     text-transform: none;
     color: var(--clr-light)
-    /* color: var(--clr-accent) */
-
 }
 
 /* grid with automatic fitting*/
@@ -83,6 +82,12 @@ a {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
     gap: 8px;
+}
+
+iframe {
+    min-height: calc(370px - 1.390625vw);
+    border-radius: 10px;
+    box-shadow: 1px 1px 3px var(--clr-dark);
 }
 
 @media (max-width: 1000px) {
