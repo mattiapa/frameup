@@ -49,9 +49,9 @@
     margin-bottom: 35vh;
 }
 .landing-button:hover {
-    color: var(--clr-dark);
+    color: var(--clr-light);
     background-color: var(--clr-primary);
-    border: 1px solid var(--clr-dark);
+    border: 1px solid var(--clr-light);
     transition: all ease-in-out 250ms;
 }
 .social-icons {

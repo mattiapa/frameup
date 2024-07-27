@@ -113,3 +113,23 @@ iframe {
         font-weight: var(--fw-regular);
     }
 }
+
+.section-title {
+    display: flex;
+    margin: auto;
+    text-align: center;
+    justify-content: space-around;
+}
+.section-title:before {
+    content: ' ';
+    border: .2px solid var(--clr-secondary);
+    width: 35%;
+    margin: auto;
+}
+.section-title:after{
+    content: ' ';
+    display: block;
+    border: .2px solid var(--clr-secondary);
+    width: 35%;
+    margin: auto;
+}

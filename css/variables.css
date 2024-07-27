@@ -29,10 +29,24 @@
     --clr-primary: #75B9BE;
     --clr-secondary: #D64933;
     --clr-highligh: #F6AE2D;
+    --clr-third: #bcf914e0;
 
     --clr-facebook: rgb(7, 102, 255);
     --clr-instagram: rgb(253, 10, 202);
     --clr-youtube: rgb(255, 0, 0);
     --clr-spotify: rgb(28, 215, 96);
 
+}
+
+.clr-primary-shadow {
+    background: linear-gradient(var(--clr-dark), var(--clr-primary));
+}
+.clr-secondary-shadow {
+    background: linear-gradient(var(--clr-dark), var(--clr-secondary));
+}
+.clr-highligh-shadow {
+    background: linear-gradient(var(--clr-dark), var(--clr-highligh));
+}
+.clr-third-shadow {
+    background: linear-gradient(var(--clr-dark), var(--clr-third));
 }
