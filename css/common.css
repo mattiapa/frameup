@@ -73,24 +73,57 @@ span {
 
 a {
     text-decoration-style: dotted;
+    text-decoration: none;
     text-transform: none;
-    color: var(--clr-light)
+    color: var(--clr-secondary);
+    font-weight: var(--fw-medium);
+}
+a:hover{
+    color: var(--clr-primary);
+    font-weight: var(--fw-semi-bold);
+}
+a:focus{
+    color: var(--clr-primary);
+    font-weight: var(--fw-semi-bold);
 }
 
 /* grid with automatic fitting*/
 .grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
-    gap: 8px;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    gap: 20px;
+    justify-items: center;
 }
 
 iframe {
-    min-height: calc(370px - 1.390625vw);
-    border-radius: 10px;
-    box-shadow: 1px 1px 3px var(--clr-dark);
+    /* min-height: calc(470px - 1.390625vw); */
+    /* min-width: calc(270px - 2vw); */
+    border-radius: 30px;
+    box-shadow: 1px 1px 10px var(--clr-secondary);
+    border: 2px solid var(--clr-secondary);
 }
 
-@media (max-width: 1000px) {
+.section-title {
+    display: flex;
+    margin: auto;
+    text-align: center;
+    justify-content: space-around;
+}
+.section-title:before {
+    content: ' ';
+    border: .2px solid var(--clr-secondary);
+    width: 35%;
+    margin: auto;
+}
+.section-title:after{
+    content: ' ';
+    display: block;
+    border: .2px solid var(--clr-secondary);
+    width: 35%;
+    margin: auto;
+}
+
+@media (max-width: 1090px) {
 
     h1 {
         font-size: var(--fs-title-breakpoint);
@@ -112,24 +145,15 @@ iframe {
         font-size: var(--fs-paragraph-breakpoint-larger);
         font-weight: var(--fw-regular);
     }
-}
-
-.section-title {
-    display: flex;
-    margin: auto;
-    text-align: center;
-    justify-content: space-around;
-}
-.section-title:before {
-    content: ' ';
-    border: .2px solid var(--clr-secondary);
-    width: 35%;
-    margin: auto;
-}
-.section-title:after{
-    content: ' ';
-    display: block;
-    border: .2px solid var(--clr-secondary);
-    width: 35%;
-    margin: auto;
+    
+    .section-title:before {
+        width: 25%;
+    }
+    .section-title:after{
+        width: 25%;
+    }
+    .grid {
+        grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+        gap: 20px;
+    }
 }
