@@ -1,0 +1,47 @@
+.card-wrapper { 
+  display: flex;
+  gap: 5px;
+  padding: 5px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 20px var(--color-4), -3px -3px 20px var(--color-5);
+  flex-wrap: nowrap;
+}
+.card-wrapper:hover {
+  transform: scale(1.1);
+  transition: all ease-in-out 250ms;
+}
+
+.card-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-name {
+  color: var(--color-4);
+  font-weight: 600; /*TODO: move to general h2, both here and video */
+}
+
+.card-role {
+  color: var(--color-text);
+  font-weight: 100;
+  margin-top: -6px;
+}
+
+.card-caption {
+  margin-top: 10px;
+  color: var(--color-text);
+}
+
+.card-img {
+  width: 120px;
+  border-radius: 10px;
+  border: 3px groove var(--color-4);
+}
+
+@media screen and (max-width: 280px) {
+  .card-wrapper {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+}

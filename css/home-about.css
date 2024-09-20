@@ -1,9 +1,0 @@
-#home-about {
-    background: var(--clr-light);
-    color: var(--clr-dark);
-}
-@media (max-width:303px) {
-    .home-about-photos-item {
-        max-width: 150px;
-    }
-}

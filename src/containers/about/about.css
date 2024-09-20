@@ -1,0 +1,12 @@
+.about-staff {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 30px;
+}
+
+@media screen and (max-width: 1234px) {
+  .about-staff {
+    grid-template-columns: 1fr;
+  }
+}

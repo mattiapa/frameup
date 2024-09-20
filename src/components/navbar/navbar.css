@@ -1,0 +1,9 @@
+.navbar-links {
+  display: flex;
+  gap: 20px;
+}
+
+.navbar-item:hover {
+  display: '';
+  font-weight: 600;
+}

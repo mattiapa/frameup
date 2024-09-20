@@ -1,0 +1,39 @@
+.footer {
+  min-height: 200px;
+}
+
+.footer-divider {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-icons {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  font-size: 25px;
+
+}
+
+.hline {
+  content: "";
+  display: block;
+  height: 1px;
+  width: 40%;
+  background-color: var(--color-main);
+}
+
+.footer-copy {
+  display: block;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.footer-copy h3,
+.footer-copy p {
+  font-size: 12px;
+}
+.footer-copy p {
+  font-style: italic;
+}

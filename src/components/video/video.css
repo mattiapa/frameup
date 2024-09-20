@@ -1,0 +1,30 @@
+.video-card {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 20px var(--color-3), -3px -3px 20px var(--color-5);
+  flex-wrap: nowrap;
+  align-items: center;
+}
+.video-card:hover {
+  transform: scale(1.1);
+  transition: all ease-in-out 250ms;
+}
+
+.video-title {
+  color: var(--color-3);
+  font-weight: 600; /*TODO: move to general h2, both here and cards */
+}
+
+.video-author {
+  color: var(--color-text);
+  font-weight: 100;
+  margin-top: -6px;
+}
+
+.video-link {
+  margin-top: 10px;
+  border-radius: 10px;
+  border: 1px groove var(--color-3);
+}

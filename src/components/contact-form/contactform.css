@@ -1,0 +1,80 @@
+:root {
+  --form-max-width: 400px;
+}
+
+form {
+  display: block;
+  flex-direction: column;
+  width: 100%;
+}
+
+input,
+textarea,
+.form-submit button {
+  margin: auto;
+  padding: 7px 10px;
+  border-radius: 10px;
+  width: 100%;
+  background-color: transparent;
+  color: var(--color-text);
+  border: 1px groove var(--color-5);
+  margin-top: 4px;
+}
+
+.form-caption {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: start;
+  gap: 10px;
+  align-items: center;
+}
+
+.form-message { 
+  margin-top: 20px;
+}
+.form-message textarea {
+  min-height: 200px;
+  max-width: var(--form-max-width);
+}
+
+.form-user-details {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: var(--form-max-width);
+}
+
+.form-submit button {
+  display: inline-flex;
+  flex-direction: row;
+  gap: 15px;
+  justify-content: center;
+  max-width: var(--form-max-width);
+  margin-top: 30px;
+  background-color: var(--color-5);
+  color: var(--color-text);
+}
+
+input:focus {
+  outline: none;
+  border: 3px solid var(--color-3);
+  border-radius: 0;
+  border-style: none none solid none;
+  transition: all ease-in-out 250ms;
+}
+
+textarea:focus {
+  outline: none;
+  border: 3px solid var(--color-3);
+  transition: all ease-in-out 100ms;
+  /* border-radius: 0;
+  border-style: none none solid none;
+  transition: all ease-in-out 250ms; */
+}
+
+.form-submit button:hover {
+  transition: all ease-in-out 250ms;
+  background-color: var(--color-3);
+  cursor: pointer;
+  color: var(--color-bg);
+}
