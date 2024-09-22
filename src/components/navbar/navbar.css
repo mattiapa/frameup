@@ -3,7 +3,14 @@
   gap: 20px;
 }
 
-.navbar-item:hover {
-  display: '';
-  font-weight: 600;
+.navbar-links p {
+  font-size: 1rem;
+  font-size: clamp(.7rem, 2vw, 1rem);
+}
+
+.navbar-item:hover,focus {
+  cursor: pointer;
+  color: var(--color-4);
+  transition: all ease-in-out 250ms;
+  font-weight: 500;
 }

@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Ramaraja&display=swap');
 
 :root {
-  --font-family: 'Manrope', sans-serif;
+  --font-family: 'Public Sans', 'Lato', 'Manrope', sans-serif;
 
   --gradient-text: linear-gradient(90deg, rgba(255, 230, 109, 1) 0%, rgba(108, 166, 193, 1) 32%, rgba(134, 147, 171, 1) 100%);
   --gradient-bar: linear-gradient(103.22deg, #AE67FA -13.86%, #F49867 99.55%);
@@ -17,4 +19,8 @@
   --color-bg: var(--color-1);
   --color-main: var(--color-2);
   --color-highlight: var(--color-3);
+
+  --fw-thin: 100;
+  --fw-regular: 300;
+  --fw-bold: 700;
 }
