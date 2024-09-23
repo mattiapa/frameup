@@ -9,13 +9,12 @@
 }
 
 .hero-image {
-  padding: 30rem 0;
+  padding: 25rem 0;
 }
 
 .hero-section {
   margin: auto;
   text-align: center;
-  border: 1px solid red;
 }
 
 .hero-title {
