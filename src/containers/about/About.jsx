@@ -1,7 +1,7 @@
 import React from 'react'
 import './about.css'
 import { staffMembers } from '../../constants'
-import { Card } from '../../components'
+import CCard from "../../components/card/CCard";
 
 
 const About = () => {
@@ -21,7 +21,7 @@ const About = () => {
 
       <div className="about-staff">
         {staffMembers.map((staff) => (
-          <Card
+          <CCard
             nome={staff.name}
             role={staff.role}
             caption={staff.caption}
