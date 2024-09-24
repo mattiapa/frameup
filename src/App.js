@@ -1,20 +1,20 @@
 import React from 'react';
-import {Header, Hero, About, Videos, Footer, Matrimoni, Eventi, Contacts} from './containers';
+import {Hero, About, Videos, Footer, Matrimoni, Eventi, Contacts} from './containers';
+import 'bootstrap/dist/css/bootstrap.css';
 import './App.css';
 
 const App = () => {
-  return (
-    <div>
-      <Header />
-      <Hero />
-      <About />
-      <Videos />
-      <Matrimoni />
-      <Eventi />
-      <Contacts />
-      <Footer />
-    </div>
-  );
+    return (
+        <div className="main">
+            <Hero/>
+            <About/>
+            <Videos/>
+            <Matrimoni/>
+            <Eventi/>
+            <Contacts/>
+            <Footer/>
+        </div>
+    );
 }
 
 export default App

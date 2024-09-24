@@ -1,30 +1,24 @@
 .hero-image {
-  width: 100%;
+  height: 100%;
+  top:0;
+  margin: 0;
+  position: relative;
+
   background-image: url("../../assets/img/gruppo-larger.png");
-  background-position: center;
+  background-position: 0 30%;
   background-repeat: no-repeat;
   background-size: cover;
-  position: relative;
-  transform: translateY(-150px);
-}
-
-.hero-image {
-  padding: 25rem 0;
 }
 
 .hero-section {
-  margin: auto;
+  padding-top: 20%;
+  padding-bottom: 15%;
   text-align: center;
 }
 
 .hero-title {
-  font-size: 5rem;
   font-size: clamp(3rem, 8vw, 5rem);
   text-transform: uppercase;
-}
-
-.hero-section {
-  transform: translateY(200px);
 }
 
 .hero-icons {
@@ -34,24 +28,30 @@
   text-align: center;
   align-items: center;
   justify-content: center;
-  font-size: 1.3rem;
   font-size: clamp(0.8rem, 2vw, 1.3rem);
 }
 
-
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 990px) {
   .hero-image {
-    padding: 15rem 0;
-    transform: translateY(0px);
+    background-position: top;
   }
-}
 
-@media screen and (max-width: 452px) {
-  .hero-image {
-    padding: 10rem 0;
-    transform: translateY(0px);
-  }
   .hero-section {
-    transform: translateY(100px);
+    padding-top: 30%;
+    padding-bottom: 25%;
+  }
+
+  .hero-title {
+    font-size: clamp(4rem, 8vw, 6rem);
+  }
+
+  .hero-icons {
+    font-size: clamp(1.3rem, 8vw, 1.5rem);
   }
 }
+
+
+
+
+
+
