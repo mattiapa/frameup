@@ -1,7 +1,7 @@
 import React from 'react'
 import './about.css'
 import { staffMembers } from '../../constants'
-import CCard from "../../components/card/CCard";
+import { CCard } from "../../components"
 
 
 const About = () => {

@@ -1,6 +1,6 @@
 import './card.css'
 import React from 'react'
-import {Card} from "react-bootstrap";
+import { Card } from "react-bootstrap";
 
 const CCard = ({nome, role, caption, photoUrl}) => {
   return (
