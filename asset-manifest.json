@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/frameup/static/css/main.412522e5.css",
+    "main.js": "/frameup/static/js/main.eeeac4ee.js",
+    "static/media/Viviana_00006.png": "/frameup/static/media/Viviana_00006.0c28e3c46956edbf5ce1.png",
+    "static/media/Andrea_00005.png": "/frameup/static/media/Andrea_00005.daa02064d491a81b459f.png",
+    "static/media/Chiara_00003.png": "/frameup/static/media/Chiara_00003.aff4c916e2a5fd97e1b7.png",
+    "static/media/IMG_8.jpg": "/frameup/static/media/IMG_8.7a4dce8297d8b0bcb8b4.jpg",
+    "static/media/Matteo_00002.png": "/frameup/static/media/Matteo_00002.9aa44544af67774e6b31.png",
+    "static/media/04.png": "/frameup/static/media/04.806ffe5b662b53e22645.png",
+    "static/media/Ale_00000.png": "/frameup/static/media/Ale_00000.7bdf26f27bdfe018c314.png",
+    "static/media/Mattia_00004.png": "/frameup/static/media/Mattia_00004.d52785c2abfcb32ba0e0.png",
+    "static/media/Baro_00001.png": "/frameup/static/media/Baro_00001.79f83a2940fb392a8846.png",
+    "static/media/gruppo-larger.png": "/frameup/static/media/gruppo-larger.15cfca7842a1a5b13fc3.png",
+    "static/media/logo.png": "/frameup/static/media/logo.6b5993d359a0ec39aa70.png",
+    "static/media/06.jpg": "/frameup/static/media/06.8d28cc615b9d5031ed64.jpg",
+    "static/media/01.jpeg": "/frameup/static/media/01.279bf743c6dcab2a408a.jpeg",
+    "static/media/02.jpg": "/frameup/static/media/02.653f63f61ffaa7a11511.jpg",
+    "static/media/03.jpeg": "/frameup/static/media/03.1fd40983ee7448d8b5ba.jpeg",
+    "static/media/05.jpeg": "/frameup/static/media/05.d0721c16aa8825847343.jpeg",
+    "index.html": "/frameup/index.html",
+    "main.412522e5.css.map": "/frameup/static/css/main.412522e5.css.map",
+    "main.eeeac4ee.js.map": "/frameup/static/js/main.eeeac4ee.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.412522e5.css",
+    "static/js/main.eeeac4ee.js"
+  ]
+}
