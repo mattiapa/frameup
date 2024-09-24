@@ -10,10 +10,6 @@
   --bs-card-bg: var(--color-1) !important;
   --bs-card-title-color: var(--color-4) !important;
 }
-.card:hover {
-  transform: scale(1.1);
-  transition: all ease-in-out 250ms;
-}
 
 .card-img-top{
   width: 50% !important;
