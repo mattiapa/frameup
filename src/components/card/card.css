@@ -18,6 +18,8 @@
 
 .card-body {
   width: 50% !important;
+  overflow: hidden;
+  text-overflow: ellipsis; /* Troncamento con i "..." */
 }
 
 .card-role {
