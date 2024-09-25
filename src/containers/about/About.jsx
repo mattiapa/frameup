@@ -1,9 +1,11 @@
 import React from 'react'
 import './about.css'
-import Carousel3d from "../../components/3d-carousel/carousel3d";
+import AboutUsCarousel from "../../components/carousel/AboutUsCarousel";
+import {staffMembers} from "../../constants";
 
 
 const About = () => {
+
     return (
         <div className="section" id='chi-siamo'>
             <h1 className='gradient__text'>Chi siamo</h1>
@@ -27,13 +29,9 @@ const About = () => {
             <p><span>Ti Aspettiamo!</span></p>
 
             <div className="about-staff">
-                <Carousel3d
-                    height="50vh"
-                    width="100%"
-                    margin="0 auto"
-                    offset={2}
-                    showArrows={false}
-                ></Carousel3d>
+                <AboutUsCarousel
+                    slides={staffMembers}
+                ></AboutUsCarousel>
             </div>
 
         </div>
