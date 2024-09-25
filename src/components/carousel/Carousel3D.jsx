@@ -7,7 +7,7 @@ export default function Carousel3D({cards, goToSlide}) {
         <Carousel
             slides={cards}
             goToSlide={goToSlide}
-            showNavigation={true}
+            showNavigation={false}
             animationConfig={config.gentle}
         />
     );
