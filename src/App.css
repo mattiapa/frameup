@@ -90,19 +90,3 @@ ul {
     transform: scale(1);
   }
 }
-
-@media screen and (max-width: 768px) {
-  .section {
-    width: 80%;
-    border: 1px solid red;
-    /* padding: 4rem; */
-    /* margin: 4rem; */
-  }
-}
-
-@media screen and (max-width: 550px) {
-  .section {
-    /* width: 95%; */
-    border: 1px solid green;
-  };
-}
