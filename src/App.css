@@ -20,30 +20,25 @@ a {
 }
 
 h1 {
-  font-size: 2rem;
   font-size: clamp(2rem, 5vw, 3rem);
 }
 
 h2 {
-  font-size: 1.3rem;
   font-size: clamp(1.3rem, 3.4vw, 1.6rem);
 }
 
 h3 {
-  font-size: 1rem;
   font-weight: var(--fw-bold);
   font-size: clamp(1rem, 2.5vw, 1.2rem);
 }
 
 p {
-  font-size: 1rem;
   font-size: clamp(1rem, 2.5vw, 1.2rem);
   margin-top: 15px;
 }
 
 
 ul {
-  font-size: 1rem;
   font-size: clamp(1rem, 2.5vw, 1.2rem);
   list-style-position: inside;
   margin-left: 10px;
@@ -57,10 +52,8 @@ ul {
 }
 
 .section {
-  /* padding: 4rem 6rem; */
   width: 70%;
-  margin: auto;
-  margin-top: 100px;
+  margin: 3% auto auto;
 }
 
 .scale-up-center {

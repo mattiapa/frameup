@@ -47,8 +47,13 @@
     flex-direction: column !important;
     flex-wrap: wrap !important;
     align-items: center;
-    width: 100% !important;
+    width: 90% !important;
+    margin: auto 5% !important;
     scale: 1;
+    border: none !important;
+    border-radius: 0 !important;
+    box-shadow: none;
+
   }
 
   .card-img-top{

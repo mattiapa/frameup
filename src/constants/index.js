@@ -3,7 +3,7 @@ export const staffMembers = [
     name: "Mattia Papa",
     role: "Direttore Artistico",
     caption:
-      "Ingegnere acustico, musicista.\nScrivo gli arrangiamenti e mi occupo della direzione musicale del gruppo!",
+      "Ingegnere acustico e musicista versatile.\nScrivo gli arrangiamenti e mi occupo della direzione musicale del gruppo!",
     photo: require("../assets/img/miniature/Mattia_00004.png"),
   },
   {
@@ -24,28 +24,28 @@ export const staffMembers = [
     name: "G. Andrea Ferraro",
     role: "Basso",
     caption:
-      "Sono il basso del gruppo, le mie note sono le più gravi e creo una base di appoggio per ogni altra voce.\nRitmica e corpo sono le parole d'ordine!",
+      "Le mie note sono le più gravi e creo una base di appoggio per ogni altra voce.\nRitmica e corpo sono le parole d'ordine!",
     photo: require("../assets/img/miniature/Baro_00001.png"),
   },
   {
     name: "Alessia Imperatore",
     role: "Soprano",
     caption:
-      "Ho insegnato canto, lavorato con compagnie teatrali per mettere in piedi svariati musical! \nDal 2018 sono il soprano dei FrameUP.",
+      "Ho insegnato canto, lavorato con compagnie teatrali per mettere in piedi svariati musical!\nSon quella che va più in alto del gruppo!",
     photo: require("../assets/img/miniature/Ale_00000.png"),
   },
   {
     name: "Chiara Imperatore",
     role: "Mezzosoprano",
     caption:
-      "Ho studiato canto e fatto esperienza in live con diverse formazioni musicali, spaziando dal jazz al rock.\n Dal 2018 sono il mezzosoprano dei Frame Up.",
+      "Ho esperienza live con diverse formazioni musicali, spaziando dal jazz al rock.\n La musica è bella e preziosa in tutte le sue forme!",
     photo: require("../assets/img/miniature/Chiara_00003.png"),
   },
   {
     name: "Viviana Di Pasquale",
     role: "Contralto",
     caption:
-      "Ho cantato con diverse formazioni corali, musicali e fatto esperienza come cantante solista.\nDal 2018 sono il contralto del gruppo, la voce femminile più grave, ma mi occupo anche di grafica e comunicazione.",
+      "Ho cantato con diverse formazioni corali, musicali e fatto esperienza come solista.\nSono la voce femminile più grave!",
     photo: require("../assets/img/miniature/Viviana_00006.png"),
   },
 ];
