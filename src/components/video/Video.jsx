@@ -5,7 +5,6 @@ import "./video.css"
 const Video = ({ title, embedId }) => {
     return (
         <div className="video-container">
-            <h2>{title}</h2>
             <ReactPlayer
                 url={`https://www.youtube.com/watch?v=${embedId}`}
                 className='react-player'
