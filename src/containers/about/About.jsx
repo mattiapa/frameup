@@ -1,6 +1,6 @@
 import React from 'react'
 import './about.css'
-import AboutUsCarousel from "../../components/carousel/AboutUsCarousel";
+import AboutUsCarousel from "../../components/carousel/about/AboutUsCarousel";
 import {staffMembers} from "../../constants";
 
 

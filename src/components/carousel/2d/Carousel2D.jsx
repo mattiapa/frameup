@@ -1,5 +1,4 @@
 import React, {useState} from "react";
-import {CCard} from "../index";
 
 export default function Carousel2D({slides}) {
 
@@ -16,14 +15,9 @@ export default function Carousel2D({slides}) {
     return (
         <div id="carousel2d" className="carousel slide" data-ride="carousel">
             <div className="carousel-inner">
-                {slides.map((staff, index) => (
+                {slides.map((slide, index) => (
                     <div className={`carousel-item ${index === goToSlide ? 'active' : ''}`} key={index}>
-                        <CCard
-                            nome={staff.name}
-                            role={staff.role}
-                            caption={staff.caption}
-                            photoUrl={staff.photo}
-                        />
+                        {slide.render()}
                     </div>
                 ))}
             </div>

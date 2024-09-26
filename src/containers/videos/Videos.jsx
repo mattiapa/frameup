@@ -1,23 +1,16 @@
 import React from 'react';
-import './videos.css';
-import { videos } from '../../constants';
-import { Video } from '../../components'
+import {videos} from '../../constants';
+import VideoCarousel from "../../components/carousel/video/VideoCarousel";
 
 const Videos = () => {
-  return (
-    <div className="section" id='ascolta'>
-      <h1 className='gradient__text'>I Nostri Video</h1>
-      <div className="video-gallery">
-        {videos.map((videoItem) => (
-        <Video
-          title={videoItem.title}
-          author={videoItem.author}
-          embedId={videoItem.embedId}
-        />
-        ))}
-      </div>
-    </div>
-  )
+    return (
+        <div className="section" id='ascolta'>
+            <h1 className='gradient__text'>I Nostri Video</h1>
+            <VideoCarousel
+                slides={videos}
+            ></VideoCarousel>
+        </div>
+    )
 }
 
 export default Videos

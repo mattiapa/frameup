@@ -1,30 +1,24 @@
-.video-card {
-  display: flex;
-  flex-direction: column;
-  padding: 5px;
-  border-radius: 10px;
-  box-shadow: 10px 10px 20px var(--color-3), -3px -3px 20px var(--color-5);
-  flex-wrap: nowrap;
-  align-items: center;
-}
-.video-card:hover {
-  transform: scale(1.1);
-  transition: all ease-in-out 250ms;
+.video-container {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 56.25%;
+    overflow: hidden;
 }
 
-.video-title {
-  color: var(--color-3);
-  font-weight: 600; /*TODO: move to general h2, both here and cards */
+.react-player {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 20px;
+    overflow: hidden;
+    scale: 0.8;
 }
 
-.video-author {
-  color: var(--color-text);
-  font-weight: 100;
-  margin-top: -6px;
-}
+@media screen and (max-width: 990px) {
 
-.video-link {
-  margin-top: 10px;
-  border-radius: 10px;
-  border: 1px groove var(--color-3);
+    .video-container,
+    .react-player {
+        scale: 1;
+    }
 }

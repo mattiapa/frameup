@@ -1,9 +1,8 @@
 import React, {useEffect, useState} from "react";
-import Carousel2D from "./Carousel2D";
-import Carousel3D from "./Carousel3D";
-import {CCard} from "../index";
-import "./carousel.css";
-
+import Carousel2D from "../2d/Carousel2D";
+import Carousel3D from "../3d/Carousel3D";
+import {CCard} from "../../index";
+import "./about-us-carousel.css"
 
 const mobile_size = 990;
 
@@ -11,6 +10,8 @@ export default function AboutUsCarousel(props) {
     const [goToSlide, setGoToSlide] = useState(0);
     const [isMobile, setIsMobile] = useState(window.innerWidth <= mobile_size);
     const cards = remapCards(props, setGoToSlide);
+    const slides = remapSlides(props);
+
 
     useEffect(() => {
         const handleResize = () => {
@@ -25,7 +26,7 @@ export default function AboutUsCarousel(props) {
         <div className="carousel-container">
             {isMobile ? (
                 <Carousel2D
-                    slides={props.slides}
+                    slides={slides}
                     goToSlide={goToSlide}
                 />
             ) : (
@@ -54,3 +55,17 @@ function remapCards(props, setGoToSlide) {
         };
     });
 }
+
+function remapSlides(props) {
+    return props.slides.map((member) => ({
+        render: () => (
+            <CCard
+                nome={member.name}
+                role={member.role}
+                caption={member.caption}
+                photoUrl={member.photo}
+            />
+        ),
+    }));
+}
+
