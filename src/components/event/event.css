@@ -3,9 +3,10 @@
   flex-direction: column-reverse;
   padding: 15px;
   border-radius: 10px;
-  box-shadow: 10px 10px 20px var(--color-1), -3px -3px 20px var(--color-5);
   gap: 5px;
   text-align: center;
+  scale: 0.8;
+
 }
 
 .event-wrapper:hover {
@@ -14,6 +15,7 @@
 }
 
 .event-image {
+  margin-top: 1rem;
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -22,11 +24,29 @@
 }
 
 .event-name {
-  color: var(--color-2);
+  color: var(--color-3);
+  font-size: 1.8rem;
   font-weight: 600;
 }
 
 .event-caption {
   color: var(--color-2);
-  font-weight: 100;
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+@media screen and (max-width: 990px) {
+
+  .event-name{
+    padding-top: 1.3rem !important;
+    font-size: 1.3rem !important;
+    text-align: center;
+  }
+
+  .event-caption {
+    font-size: 1rem;
+    margin-top: 10px;
+    color: var(--color-2);
+    text-align: center;
+  }
 }

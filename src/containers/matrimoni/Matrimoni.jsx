@@ -1,7 +1,7 @@
 import React from 'react'
 import './matrimoni.css'
 import VideoCarousel from "../../components/carousel/video/VideoCarousel";
-import {videoMatrimoni, videos} from '../../constants'
+import {videoMatrimoni} from '../../constants'
 
 const Matrimoni = () => {
     return (
@@ -23,13 +23,14 @@ const Matrimoni = () => {
             <p>Puoi vedere i demo che abbiamo preparato per riassumere parte del repertorio adatto ai riti religioso e
                 civile proprio qui sotto!</p>
 
+            <p><span>Contattaci per maggiori informazioni!</span></p>
+
             <div className="video-gallery video-wedding">
                 <VideoCarousel
                     slides={videoMatrimoni}
                 ></VideoCarousel>
             </div>
 
-            <p><span>Contattaci per maggiori informazioni!</span></p>
         </div>
     )
 }

@@ -2,7 +2,7 @@ import './card.css'
 import React from 'react'
 import { Card } from "react-bootstrap";
 
-const CCard = ({ nome, role, caption, photoUrl, showDetails }) => {
+const CCard = ({ nome, role, caption, photoUrl }) => {
     return (
         <Card>
             <Card.Img variant="top" src={photoUrl} alt="" />

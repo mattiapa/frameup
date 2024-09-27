@@ -92,39 +92,39 @@ export const videoMatrimoni = [
 
 export const events = [
   {
-    data: "24 Settembre 2023 - Villa Maggio Ponti",
+    title: "24 Settembre 2023 - Villa Maggio Ponti",
     caption:
       'Esibizione live per la celebrazione di un anno di "Sposa Moda Milano" Brugherio',
     photoUrl: require("../assets/img/foto_eventi/06.jpg"),
   },
   {
-    data: "22 Gennaio 2023 - Udine M2",
+    title: "22 Gennaio 2023 - Udine M2",
     caption: "Esibizione live per Cineforum della Parrocchi Leone Magno",
     photoUrl: require("../assets/img/foto_eventi/05.jpeg"),
   },
   {
-    data: "11 Luglio 2021",
+    title: "11 Luglio 2021",
     caption: "Aperitivo Matrimonio in Villa",
     photoUrl: require("../assets/img/foto_eventi/04.png"),
   },
   {
-    data: "14 Dicembre 2019",
+    title: "14 Dicembre 2019",
     caption: "Happy New Yearth!",
     photoUrl: require("../assets/img/foto_eventi/03.jpeg"),
   },
   {
-    data: "26 Ottobre 2019 - Binario 7 (Monza)",
+    title: "26 Ottobre 2019 - Binario 7 (Monza)",
     caption: "Nice Voice Festival",
     photoUrl: require("../assets/img/foto_eventi/02.jpg"),
   },
   {
-    data: "Febbraio/Novembre 2019 - MW Radio, No Limits (Monza)",
+    title: "Febbraio/Novembre 2019 - MW Radio, No Limits (Monza)",
     caption:
       "Ospiti per due puntate della rubrica musicale, con intervita ed esibizioni live.",
     photoUrl: require("../assets/img/foto_eventi/01.jpeg"),
   },
   {
-    data: "Gennaio 2018",
+    title: "Gennaio 2018",
     caption:
       "Nasce il gruppo + concerto a Macerata",
     photoUrl: require("../assets/img/bg/IMG_8.jpg"),
