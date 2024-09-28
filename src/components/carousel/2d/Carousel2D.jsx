@@ -22,16 +22,16 @@ export default function Carousel2D({slides}) {
                 ))}
             </div>
             <div>
-                <a className="carousel-control-prev" href="#carousel2d" role="button" data-slide="prev"
+                <button className="carousel-control-prev" data-slide="prev"
                    onClick={handlePreviousSlide}>
                     <span className="carousel-control-prev-icon" aria-hidden="true"></span>
                     <span className="sr-only">Previous</span>
-                </a>
-                <a className="carousel-control-next" href="#carousel2d" role="button" data-slide="next"
+                </button>
+                <button className="carousel-control-next" data-slide="next"
                    onClick={handleNextSlide}>
                     <span className="carousel-control-next-icon" aria-hidden="true"></span>
                     <span className="sr-only">Next</span>
-                </a>
+                </button>
             </div>
         </div>
     );
