@@ -1,10 +1,10 @@
 .navbar {
-  --bs-navbar-padding-y: 1rem !important;
+  --bs-navbar-padding-y: .1rem !important;
   --bs-navbar-padding-x: 1rem !important;
   --bs-navbar-brand-margin-end: 0 !important;
   --bs-gutter-x: 0 !important;
   z-index: 1;
-  position: sticky !important;
+  position: fixed !important;
   top: 0;
   width: 100%;
   box-shadow: 0 0 20px rgba(227, 228, 237, 0.37);

@@ -1,13 +1,11 @@
 import './hero.css'
 import { Button, Icons } from '../../components'
 import React from "react";
-import {Header} from "../index";
 
 const Hero = () => {
   return (
     <div className="hero-image">
-        <Header></Header>
-      <div className='section hero-section'>
+      <div className='section hero-section' id="hero">
         {/* <h1 className='gradient__text hero-title'>Frame Up</h1> */}
         <h1 className='hero-title'>Frame Up</h1>
         <Button
