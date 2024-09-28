@@ -1,0 +1,6 @@
+@media screen and (max-width: 990px) {
+    .carousel-item {
+        width: 75% !important;
+        margin: 0 12.5% !important;
+    }
+}

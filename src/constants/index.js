@@ -45,7 +45,7 @@ export const staffMembers = [
     name: "Viviana Di Pasquale",
     role: "Contralto",
     caption:
-      "Ho cantato con diverse formazioni corali, musicali e fatto esperienza come solista.\nSono la voce femminile più grave!",
+      "Ho cantato con diverse formazioni corali, musicali e fatto esperienza come solista.\nSono la voce femminile più grave e mi occupo anche della grafica!",
     photo: require("../assets/img/miniature/Viviana_00006.png"),
   },
 ];

@@ -1,17 +1,15 @@
 .event-wrapper {
   display: flex;
-  flex-direction: column-reverse;
+  flex-direction: column;
   /* padding: 15px; */
   border-radius: 10px;
   gap: 5px;
   text-align: center;
-  scale: 0.8;
-
 }
 
 .event-image {
-  /* margin-top: 1rem; */
-  width: 100%;
+  width: 80%;
+  margin: 0 10%;
   height: 100%;
   object-fit: cover;
   border-radius: 10px;
@@ -32,14 +30,18 @@
 
 @media screen and (max-width: 990px) {
 
+  .event-image{
+    margin-top: 1rem
+  }
+
   .event-name{
     padding-top: 1.3rem !important;
-    font-size: 1.3rem !important;
+    font-size: 1rem !important;
     text-align: center;
   }
 
   .event-caption {
-    font-size: 1rem;
+    font-size: 0.8rem;
     margin-top: 10px;
     color: var(--color-2);
     text-align: center;
