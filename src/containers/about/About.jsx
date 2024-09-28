@@ -2,6 +2,7 @@ import React from 'react'
 import './about.css'
 import AboutUsCarousel from "../../components/carousel/about/AboutUsCarousel";
 import {staffMembers} from "../../constants";
+import { Hlink } from '../../components';
 
 
 const About = () => {
@@ -18,12 +19,7 @@ const About = () => {
             <p>Dal pop al gospel, dal sacro al profano, il nostro repertorio si adatta ad <span>ogni occasione</span>,
                 creando l'atmosfera giusta per eventi, feste e matrimoni!</p>
 
-            <p>Per conoscerci meglio, seguici su <a href="https://www.youtube.com/@frameupvocalband" target="_blank"
-                                                    rel="noreferrer">YouTube</a>, <a
-                href="https://www.instagram.com/frameup.vocalband/" target="_blank" rel="noreferrer">Instagram</a>, <a
-                href="https://www.facebook.com/FrameUPVocalBand" target="_blank" rel="noreferrer">Facebook</a> e <a
-                href="https://open.spotify.com/artist/7Dgll7k2UpfixdJow80D9u?si=8LHrQqZZQPyQLpsQxs37yA" target="_blank"
-                rel="noreferrer">Spotify</a>, dove potrai ascoltare alcuni dei nostri brani e rimanere sempre aggiornato
+            <p>Per conoscerci meglio, seguici su <Hlink href="https://www.youtube.com/@frameupvocalband" name="YouTube"/>, <Hlink href="https://www.instagram.com/frameup.vocalband/" name="Instagram"/>, <Hlink href="https://www.facebook.com/FrameUPVocalBand" name="Facebook"/> e <Hlink href="https://open.spotify.com/artist/7Dgll7k2UpfixdJow80D9u?si=8LHrQqZZQPyQLpsQxs37yA" name="Spotify"/>, dove potrai ascoltare alcuni dei nostri brani e rimanere sempre aggiornato
                 su appuntamenti ed altre news.</p>
 
             <p><span>Ti Aspettiamo!</span></p>
