@@ -57,6 +57,7 @@ ul {
 .section {
   width: 70%;
   margin: 3% auto auto;
+  scroll-margin-top: 100px;
 }
 
 .scale-up-center {
