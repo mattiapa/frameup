@@ -37,6 +37,9 @@ p {
   margin-top: 15px;
 }
 
+span {
+  font-weight: 800;
+}
 
 ul {
   font-size: clamp(1rem, 2.5vw, 1.2rem);
