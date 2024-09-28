@@ -17,14 +17,21 @@
 }
 
 .event-name {
+  opacity: 0.9;
+  background-color: var(--color-1);
   color: var(--color-3);
-  font-size: 1.8rem;
+  font-size: 1.3rem;
   font-weight: 600;
+  margin: 0 10%;
+  width: 80%;
+  padding-top: 1rem;
+  transform: translateY(-6rem);
+
 }
 
 .event-caption {
   color: var(--color-2);
-  font-size: 1.5rem;
+  font-size: 1rem;
   font-weight: 300;
 }
 
@@ -38,6 +45,7 @@
     padding-top: 1.3rem !important;
     font-size: 1rem !important;
     text-align: center;
+    transform: translate(0);
   }
 
   .event-caption {
