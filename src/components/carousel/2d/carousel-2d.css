@@ -2,5 +2,7 @@
     .carousel-item {
         width: 75% !important;
         margin: 0 12.5% !important;
+        box-shadow: rgba(0, 0, 0, .5) 0px 1px 10px;
+        border-radius: 10px;
     }
 }
