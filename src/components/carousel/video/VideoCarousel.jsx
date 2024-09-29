@@ -5,7 +5,7 @@ import "./video-carousel.css"
 
 
 export default function VideoCarousel(props) {
-    const [goToSlide, setGoToSlide] = useState(0);
+    const [goToSlide] = useState(0);
     const slides = remapSlides(props);
 
     return (

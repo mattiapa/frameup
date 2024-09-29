@@ -1,11 +1,11 @@
 import React, {useState} from "react";
 import Carousel2D from "../2d/Carousel2D";
-import {CCard, Event, Video} from "../../index";
+import {Event} from "../../index";
 import "./events-carousel.css"
 
 
 export default function EventsCarousel(props) {
-    const [goToSlide, setGoToSlide] = useState(0);
+    const [goToSlide] = useState(0);
     const slides = remapSlides(props);
 
     return (
