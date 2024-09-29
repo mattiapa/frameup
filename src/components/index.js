@@ -6,3 +6,4 @@ export { default as Video } from "./video/Video";
 export { default as Event } from "./event/Event";
 export { default as Contactform } from "./contact-form/Contactform";
 export { default as OwnerContact } from "./contacts/Contact";
+export { default as Hlink } from "./hlink/Hlink";

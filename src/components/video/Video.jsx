@@ -1,23 +1,19 @@
-import React from 'react'
-import './video.css'
+import React from 'react';
+import ReactPlayer from 'react-player';
+import "./video.css"
 
-const Video = ({ title, author, embedId, width="300", height="180" }) => {
-  return (
-    <div class='video-card'>
-      <h2 className="video-title">{title}</h2>
-      {author && <h3 className="video-author">{author}</h3>}
-      <iframe
-        className='video-link'
-        width={width}
-        height={height}
-        src={`https://www.youtube.com/embed/${embedId}`}
-        frameBorder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowFullScreen
-        title={title}
-      />
-    </div>
-  )
+const Video = ({ title, embedId }) => {
+    return (
+        <div className="video-container">
+            <ReactPlayer
+                url={`https://www.youtube.com/watch?v=${embedId}`}
+                className='react-player'
+                width='100%'
+                height='100%'
+                controls={true}
+            />
+        </div>
+    );
 }
 
-export default Video
+export default Video;

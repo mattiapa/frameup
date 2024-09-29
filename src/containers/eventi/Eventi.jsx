@@ -1,23 +1,17 @@
 import React from 'react'
-import { Event } from '../../components'
-import { events } from '../../constants'
+import {events} from '../../constants'
 import './eventi.css'
+import EventsCarousel from "../../components/carousel/events-carousel/EventsCarousel";
 
 const Eventi = () => {
   return (
     <div className='section' id="eventi">
       <h1 className='gradient__text'>Eventi</h1>
-
       <div className="events-gallery">
-        {events.map((eventItem) => (
-        <Event
-          data={eventItem.data}
-          caption={eventItem.caption}
-          photoUrl={eventItem.photoUrl}
-        />
-        ))}
+          <EventsCarousel
+              slides={events}
+          ></EventsCarousel>
       </div>
-
     </div>
   )
 }

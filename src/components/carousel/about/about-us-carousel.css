@@ -1,0 +1,24 @@
+.carousel-container {
+    perspective: 1500px; /* Prospettiva 3D */
+    transform-style: preserve-3d;
+    width: 100%;
+    height: 25rem;
+    margin: 0 auto;
+    position: relative;
+    display: block;
+    z-index:0;
+}
+
+@media screen and (max-width: 990px) {
+    .carousel-container {
+        perspective: none;
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+        overflow: hidden;
+        position: relative;
+        display: block;
+        z-index:0;
+    }
+
+}

@@ -3,22 +3,24 @@
 }
 
 form {
-  display: block;
+  display: flex;
   flex-direction: column;
   width: 100%;
+  align-items: center;
+  color: var(--color-text);
 }
 
 input,
 textarea,
 .form-submit button {
-  margin: auto;
   padding: 7px 10px;
   border-radius: 10px;
-  width: 100%;
+  width: 30vw;
+  max-width: var(--form-max-width);
   background-color: transparent;
-  color: var(--color-text);
   border: 1px groove var(--color-5);
   margin-top: 4px;
+  color: var(--color-text);
 }
 
 .form-caption {
@@ -42,6 +44,7 @@ textarea,
   flex-direction: column;
   gap: 10px;
   max-width: var(--form-max-width);
+
 }
 
 .form-submit button {

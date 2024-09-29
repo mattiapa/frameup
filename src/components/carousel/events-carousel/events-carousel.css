@@ -1,0 +1,10 @@
+.events-carousel-container {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    overflow: auto;
+    position: relative;
+    display: flex;
+    text-align: center;
+    z-index: 0;
+}

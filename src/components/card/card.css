@@ -9,40 +9,88 @@
   align-items: flex-start;
   --bs-card-bg: var(--color-1) !important;
   --bs-card-title-color: var(--color-4) !important;
+  transition: width 0.5s ease-in-out, max-height 0.5s ease-in-out;
+  width: 55rem;
+  scale: 0.7;
+}
+
+.card-body-wrapper {
+  max-height: 50vh;
 }
 
 .card-img-top{
   width: 50% !important;
-  clip-path: inset(0 0 8%)
+  clip-path: inset(0 0 18%);
+  bottom: -40px;
+  position: relative;
 }
 
-.card-body {
-  width: 50% !important;
+.card-title{
+  font-size: 2rem !important;
 }
 
 .card-role {
-  font-weight: 200;
+  font-size: 1.8rem;
+  font-weight: 100;
   color: var(--color-3);
   margin-top: -6px;
 }
 
 .card-caption {
+  font-size:1.6rem;
   margin-top: 10px;
   color: var(--color-2);
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
-@media screen and (max-width: 738px) {
+@media screen and (max-width: 990px) {
   .card {
     flex-direction: column !important;
     flex-wrap: wrap !important;
     align-items: center;
+    width: 100% !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    scale: 1;
+    border: none !important;
+    border-radius: 0 !important;
+    box-shadow: none;
   }
 
+  .card-body {
+    padding: 0 !important;
+  }
   .card-img-top{
-    width: 100% !important;
+    width: 95% !important;
+    bottom: -1rem !important;
   }
 
   .card-body {
     width: 100% !important;
+    padding-top: 0 !important;
+  }
+
+  .card-body-wrapper {
+    max-height: 100%;
+    transform: translateY(-2rem);
+  }
+
+  .card-title{
+    padding-top: 1.3rem !important;
+    font-size: 1.3rem !important;
+    text-align: center;
+  }
+
+  .card-role {
+    text-align: center;
+    font-size: 1rem;
+    margin-top: -10px;
+  }
+
+  .card-caption {
+    font-size: 0.8rem;
+    margin-top: 20px;
+    text-align: center;
   }
 }

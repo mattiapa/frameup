@@ -3,49 +3,49 @@ export const staffMembers = [
     name: "Mattia Papa",
     role: "Direttore Artistico",
     caption:
-      "Ingegnere acustico, musicista. Scrivo gli arrangiamenti e mi occupo della direzione musicale del gruppo!",
+      "Ingegnere acustico e musicista versatile.\nScrivo gli arrangiamenti e mi occupo della direzione musicale del gruppo!",
     photo: require("../assets/img/miniature/Mattia_00004.png"),
   },
   {
     name: "Matteo Giammò",
     role: "Beatboxer",
     caption:
-      "Sono il beatboxer del gruppo e mi affidano la parte ritmica di ogni brano. Riproduco ogni suono della batteria con la sola voce!",
+      "Sono il beatboxer del gruppo e mi affidano la parte ritmica di ogni brano.\n Riproduco ogni suono della batteria con la sola voce!",
     photo: require("../assets/img/miniature/Matteo_00002.png"),
   },
   {
     name: "Andrea De Monti",
     role: "Tenore",
     caption:
-      "Sono il tenore del gruppo, ma anche uno dei fondatori! Nasco come cantante solista, ma da quasi 10 anni mi occupo di musica vocale.",
+      "Sono il tenore del gruppo, ma anche uno dei fondatori!\nNasco come cantante solista, ma da quasi 10 anni mi occupo di musica vocale.",
     photo: require("../assets/img/miniature/Andrea_00005.png"),
   },
   {
-    name: "Giuseppe Andrea Ferraro",
+    name: "G. Andrea Ferraro",
     role: "Basso",
     caption:
-      "Sono il basso del gruppo. Le mie note sono le più gravi e creo una base di appoggio per ogni altra voce. Ritmica e corpo sono le parole d'ordine!",
+      "Le mie note sono le più gravi e creo una base di appoggio per ogni altra voce.\nRitmica e corpo sono le parole d'ordine!",
     photo: require("../assets/img/miniature/Baro_00001.png"),
   },
   {
     name: "Alessia Imperatore",
     role: "Soprano",
     caption:
-      "Ho insegnato canto, lavorato con compagnie teatrali per mettere in piedi svariati musical e dal 2018 sono il soprano dei FrameUP.",
+      "Ho insegnato canto, lavorato con compagnie teatrali per mettere in piedi svariati musical!\nSon quella che va più in alto del gruppo!",
     photo: require("../assets/img/miniature/Ale_00000.png"),
   },
   {
     name: "Chiara Imperatore",
     role: "Mezzosoprano",
     caption:
-      "Ho studiato canto e fatto esperienza in live con diverse formazioni musicali, spaziando dal jazz al rock. Dal 2018 sono il mezzosoprano dei Frame Up.",
+      "Ho esperienza live con diverse formazioni musicali, spaziando dal jazz al rock.\n La musica è bella e preziosa in tutte le sue forme!",
     photo: require("../assets/img/miniature/Chiara_00003.png"),
   },
   {
     name: "Viviana Di Pasquale",
     role: "Contralto",
     caption:
-      "Ho cantato con diverse formazioni corali, musicali e fatto esperienza come cantante solista. Dal 2018 sono il contralto del gruppo, la voce femminile più grave, ma mi occupo anche di grafica e comunicazione.",
+      "Ho cantato con diverse formazioni corali, musicali e fatto esperienza come solista.\nSono la voce femminile più grave e mi occupo anche della grafica!",
     photo: require("../assets/img/miniature/Viviana_00006.png"),
   },
 ];
@@ -92,39 +92,39 @@ export const videoMatrimoni = [
 
 export const events = [
   {
-    data: "24 Settembre 2023 - Villa Maggio Ponti",
+    title: "24 Settembre 2023 - Villa Maggio Ponti",
     caption:
       'Esibizione live per la celebrazione di un anno di "Sposa Moda Milano" Brugherio',
     photoUrl: require("../assets/img/foto_eventi/06.jpg"),
   },
   {
-    data: "22 Gennaio 2023 - Udine M2",
+    title: "22 Gennaio 2023 - Udine M2",
     caption: "Esibizione live per Cineforum della Parrocchi Leone Magno",
     photoUrl: require("../assets/img/foto_eventi/05.jpeg"),
   },
   {
-    data: "11 Luglio 2021",
+    title: "11 Luglio 2021",
     caption: "Aperitivo Matrimonio in Villa",
     photoUrl: require("../assets/img/foto_eventi/04.png"),
   },
   {
-    data: "14 Dicembre 2019",
+    title: "14 Dicembre 2019",
     caption: "Happy New Yearth!",
     photoUrl: require("../assets/img/foto_eventi/03.jpeg"),
   },
   {
-    data: "26 Ottobre 2019 - Binario 7 (Monza)",
+    title: "26 Ottobre 2019 - Binario 7 (Monza)",
     caption: "Nice Voice Festival",
     photoUrl: require("../assets/img/foto_eventi/02.jpg"),
   },
   {
-    data: "Febbraio/Novembre 2019 - MW Radio, No Limits (Monza)",
+    title: "Febbraio/Novembre 2019 - MW Radio, No Limits (Monza)",
     caption:
       "Ospiti per due puntate della rubrica musicale, con intervita ed esibizioni live.",
     photoUrl: require("../assets/img/foto_eventi/01.jpeg"),
   },
   {
-    data: "Gennaio 2018",
+    title: "Gennaio 2018",
     caption:
       "Nasce il gruppo + concerto a Macerata",
     photoUrl: require("../assets/img/bg/IMG_8.jpg"),

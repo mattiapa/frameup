@@ -10,7 +10,7 @@ const FormCaption = ({formName, iconClass}) => {
   )
 }
 
-const FormInput = ({className, formName, iconClass, inputType, placeHolder}) => {
+const FormInput = ({className, formName, iconClass, inputType, name, placeHolder}) => {
   return (
   <div className={className}>
     <FormCaption 
@@ -19,6 +19,7 @@ const FormInput = ({className, formName, iconClass, inputType, placeHolder}) => 
     />
     <input 
       type={inputType}
+      name={name}
       placeholder={placeHolder}
       required
     />
@@ -36,6 +37,7 @@ const FormMessage = () => {
       <textarea 
         type="text"
         placeholder='Scrivi qui il tuo messaggio'
+        name="message"
         required
       />
     </div>
@@ -54,14 +56,18 @@ const FormSubmit = () => {
 
 const Contactform = () => {
   return (
-  <form>
+  <form action="https://api.web3forms.com/submit" method="POST" class="contact-form">
+    <input type="hidden" name="access_key" value="f08c8bb9-59cd-44dc-a10a-824786948259"></input>
+
     <div className='form-to-submit'>
+
       <div className='form-user-details'>
         <FormInput
           className={'form-name'}
           formName={"Nome"}
           iconClass={"fa-solid fa-user"}
           inputType={"text"}
+          name={"name"}
           placeHolder={"Nome e Cognome"}
         />
         <FormInput
@@ -69,6 +75,7 @@ const Contactform = () => {
           formName={"E-mail"}
           iconClass={"fa-solid fa-envelope"}
           inputType={"email"}
+          name={"email"}
           placeHolder={"La tua email"}
         />
         <FormInput
@@ -76,6 +83,7 @@ const Contactform = () => {
           formName={"Cellulare"}
           iconClass={"fa-solid fa-phone"}
           inputType={"tel"}
+          name={"tel"}
           placeHolder={'123 4567 899'}
         />
       </div>

@@ -1,0 +1,13 @@
+.hlink {
+  font-weight: 600;
+}
+
+.hlink i {
+  font-size: smaller;
+}
+
+.hlink:hover{
+  cursor: pointer;
+  color: var(--color-5);
+  transition: all ease-in-out 100ms;
+}
