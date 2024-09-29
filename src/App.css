@@ -58,6 +58,7 @@ ul {
   width: 70%;
   margin: 3% auto auto;
   scroll-margin-top: 100px;
+  margin-bottom: 50px;
 }
 
 .scale-up-center {
@@ -86,5 +87,12 @@ ul {
   100% {
     -webkit-transform: scale(1);
     transform: scale(1);
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .section {
+    /* margin-top: 100px; */
+    width: 85%;
   }
 }

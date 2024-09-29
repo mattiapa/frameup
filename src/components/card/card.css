@@ -53,7 +53,6 @@
     padding: 0 !important;
     margin: 0 !important;
     scale: 1;
-    border: none !important;
     border-radius: 0 !important;
     box-shadow: none;
   }
@@ -62,7 +61,7 @@
     padding: 0 !important;
   }
   .card-img-top{
-    width: 95% !important;
+    width: 97% !important;
     bottom: -1rem !important;
   }
 
@@ -73,24 +72,21 @@
 
   .card-body-wrapper {
     max-height: 100%;
-    transform: translateY(-2rem);
   }
 
   .card-title{
-    padding-top: 1.3rem !important;
-    font-size: 1.3rem !important;
+    font-size: 1.2rem !important;
     text-align: center;
   }
 
   .card-role {
     text-align: center;
     font-size: 1rem;
-    margin-top: -10px;
+    margin-top: -15px;
   }
 
   .card-caption {
     font-size: 0.8rem;
-    margin-top: 20px;
     text-align: center;
   }
 }
