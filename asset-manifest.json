@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/frameup/static/css/main.ea47ee91.css",
-    "main.js": "/frameup/static/js/main.f955dcd6.js",
+    "main.css": "/frameup/static/css/main.8ffefb06.css",
+    "main.js": "/frameup/static/js/main.0eb93292.js",
     "reactPlayerYouTube.js": "/frameup/static/js/reactPlayerYouTube.6dfda43d.chunk.js",
     "reactPlayerSoundCloud.js": "/frameup/static/js/reactPlayerSoundCloud.aa76401a.chunk.js",
     "reactPlayerVimeo.js": "/frameup/static/js/reactPlayerVimeo.886f522a.chunk.js",
@@ -27,14 +27,15 @@
     "static/media/Baro_00001.png": "/frameup/static/media/Baro_00001.79f83a2940fb392a8846.png",
     "static/media/gruppo-larger.png": "/frameup/static/media/gruppo-larger.15cfca7842a1a5b13fc3.png",
     "static/media/logo.png": "/frameup/static/media/logo.6b5993d359a0ec39aa70.png",
+    "static/media/07.jpg": "/frameup/static/media/07.781b00e54a7d2955ed97.jpg",
     "static/media/06.jpg": "/frameup/static/media/06.8d28cc615b9d5031ed64.jpg",
     "static/media/01.jpeg": "/frameup/static/media/01.279bf743c6dcab2a408a.jpeg",
     "static/media/02.jpg": "/frameup/static/media/02.653f63f61ffaa7a11511.jpg",
     "static/media/03.jpeg": "/frameup/static/media/03.1fd40983ee7448d8b5ba.jpeg",
     "static/media/05.jpeg": "/frameup/static/media/05.d0721c16aa8825847343.jpeg",
     "index.html": "/frameup/index.html",
-    "main.ea47ee91.css.map": "/frameup/static/css/main.ea47ee91.css.map",
-    "main.f955dcd6.js.map": "/frameup/static/js/main.f955dcd6.js.map",
+    "main.8ffefb06.css.map": "/frameup/static/css/main.8ffefb06.css.map",
+    "main.0eb93292.js.map": "/frameup/static/js/main.0eb93292.js.map",
     "reactPlayerYouTube.6dfda43d.chunk.js.map": "/frameup/static/js/reactPlayerYouTube.6dfda43d.chunk.js.map",
     "reactPlayerSoundCloud.aa76401a.chunk.js.map": "/frameup/static/js/reactPlayerSoundCloud.aa76401a.chunk.js.map",
     "reactPlayerVimeo.886f522a.chunk.js.map": "/frameup/static/js/reactPlayerVimeo.886f522a.chunk.js.map",
@@ -51,7 +52,7 @@
     "reactPlayerPreview.99d1e948.chunk.js.map": "/frameup/static/js/reactPlayerPreview.99d1e948.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ea47ee91.css",
-    "static/js/main.f955dcd6.js"
+    "static/css/main.8ffefb06.css",
+    "static/js/main.0eb93292.js"
   ]
 }
