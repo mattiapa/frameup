@@ -25,6 +25,8 @@ function remapSlides(props) {
             <Event
                 title={eventItem.title}
                 caption={eventItem.caption}
+                externalLink={eventItem.externalLink}
+                externalLabel={eventItem.externalLabel}
                 photoUrl={eventItem.photoUrl}
             />
         ),

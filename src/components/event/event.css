@@ -37,6 +37,14 @@
   margin-top: 0;
 }
 
+.event-link {
+  color: var(--color-4);
+  text-decoration: underline;
+  font-size: 1.3rem;;
+  font-weight: 700;
+  padding: 2rem;
+}
+
 @media screen and (max-width: 990px) {
 
   .event-image{
@@ -55,5 +63,9 @@
     font-size: 0.7rem;
     text-align: center;
     font-weight: 100;
+  }
+
+  .event-link {
+    padding: 0 !important;
   }
 }

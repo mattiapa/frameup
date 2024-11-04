@@ -92,6 +92,13 @@ export const videoMatrimoni = [
 
 export const events = [
   {
+    title: "28 Novembre 2024",
+    caption:
+        'We call it a Cappella Milano',
+    externalLink: 'https://feverup.com/m/199324?srsltid=AfmBOoqsh04Dz7PL5eWxsTJH4NaHJ5KjMyVUHanpTohiFE3GoK64DYzt',
+    externalLabel: 'Prenota il tuo biglietto!',
+    photoUrl: require("../assets/img/foto_eventi/07.jpg"),
+  },{
     title: "24 Settembre 2023 - Villa Maggio Ponti",
     caption:
       'Esibizione live per la celebrazione di un anno di "Sposa Moda Milano" Brugherio',
