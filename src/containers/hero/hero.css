@@ -4,7 +4,7 @@
   margin: 0;
   position: relative;
 
-  background-image: url("../../assets/img/gruppo-larger.png");
+  background-image: url("../../assets/img/gruppo-ai-desktop-alter.png");
   background-position: 0 30%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -12,8 +12,13 @@
 
 .hero-section {
   padding-top: 20%;
-  padding-bottom: 15%;
+  padding-bottom: 18%;
+  margin-top: 0 !important;
   text-align: center;
+}
+
+.hero-elements {
+  transform: translateY(-100%);
 }
 
 .hero-title {
@@ -31,13 +36,37 @@
   font-size: clamp(0.8rem, 2vw, 1.3rem);
 }
 
+@media screen and (max-width: 1440px){
+  .hero-elements {
+    transform: translateY(-80%) scale(0.8)
+  }
+}
+
+@media screen and (max-width: 1280px){
+  .hero-elements {
+    transform: translateY(-70%) scale(0.8)
+  }
+}
+
+@media screen and (max-width: 1024px){
+  .hero-elements {
+    transform: translateY(-50%) scale(0.6)
+  }
+}
+
 @media screen and (max-width: 990px) {
   .hero-image {
     background-position: top;
+    background-image: url("../../assets/img/gruppo-ai-mobile-alter.png");
+    height: 50%;
   }
 
   .hero-section {
-    padding-top: 60%;
+    padding-top: 110%;
+  }
+
+  .hero-elements{
+    transform: scale(1);
   }
 
   .hero-title {
